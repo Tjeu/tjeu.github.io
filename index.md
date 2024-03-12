@@ -4,6 +4,8 @@ title: home
 ---
 # hello, world
 
+![XKCD 741: Blogging](https://imgs.xkcd.com/comics/blogging.png)
+
 ## to do
 1. write an index page
 1. write an about page
