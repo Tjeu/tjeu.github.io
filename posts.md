@@ -47,3 +47,36 @@ permalink: /posts/
     </li>
   {% endfor %}
 </ul>
+
+---
+
+## Ansible Posts
+<ul>
+  {% for post in site.tags.fme-flow %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
+## Home Assistant Posts
+<ul>
+  {% for post in site.tags.fme-flow %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
+## Power Automate Posts
+<ul>
+  {% for post in site.tags.fme-flow %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
