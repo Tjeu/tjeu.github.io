@@ -25,6 +25,8 @@ permalink: /posts/
   {% endfor %}
 </ul>
 
+---
+
 
 ## FME Form Posts
 <ul>
@@ -35,6 +37,7 @@ permalink: /posts/
   {% endfor %}
 </ul>
 
+---
 
 ## FME Flow Posts
 <ul>
