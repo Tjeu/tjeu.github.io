@@ -9,14 +9,14 @@ permalink: /posts/
 <ul>
   {% for post in site.posts %}
     <li>
-      <h4><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h4>
+      <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
 ---
 
-## Jekyll Posts
+### Jekyll Posts
 <ul>
   {% for post in site.tags.jekyll %}
     <li>
@@ -28,7 +28,7 @@ permalink: /posts/
 ---
 
 
-## FME Form Posts
+### FME Form Posts
 <ul>
   {% for post in site.tags.fme-form %}
     <li>
@@ -39,7 +39,7 @@ permalink: /posts/
 
 ---
 
-## FME Flow Posts
+### FME Flow Posts
 <ul>
   {% for post in site.tags.fme-flow %}
     <li>
@@ -61,7 +61,7 @@ permalink: /posts/
 
 ---
 
-## Home Assistant Posts
+### Home Assistant Posts
 <ul>
   {% for post in site.tags.fme-flow %}
     <li>
@@ -72,7 +72,7 @@ permalink: /posts/
 
 ---
 
-## Power Automate Posts
+### Power Automate Posts
 <ul>
   {% for post in site.tags.fme-flow %}
     <li>
