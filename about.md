@@ -1,6 +1,7 @@
 ---
 layout: default
 title: home
+permalink: /about/
 ---
 
 * [Home]({{ page.canonical_url }})
