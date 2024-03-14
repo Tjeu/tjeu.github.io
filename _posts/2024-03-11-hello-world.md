@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "hello, world"
-date:   2024-03-11 21:31:45
+date:   2024-03-11 21:31:45+01:00
 categories: jekyll
 tag: jekyll
 ---
