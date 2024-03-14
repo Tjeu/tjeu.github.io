@@ -2,7 +2,7 @@
 layout: default
 title: home
 ---
-# hello, world
+# Introduction
 
 ## to do
 1. write an index page
