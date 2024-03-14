@@ -26,3 +26,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  - categories
