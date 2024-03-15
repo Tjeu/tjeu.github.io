@@ -6,4 +6,4 @@ categories: jekyll
 tags: jekyll
 ---
 
-![A comic slightly related to this article is XKCD 741: Blogging](https://imgs.xkcd.com/comics/blogging.png)
+![A comic slightly related to this article is XKCD 741: Blogging](https://imgs.xkcd.com/comics/blogging.png "A comic slightly related to this article is XKCD 741: Blogging")
