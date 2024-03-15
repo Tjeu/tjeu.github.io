@@ -9,7 +9,7 @@ permalink: /posts/
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a>
+      <a href="{{ post.url }}" class="link--post">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -20,7 +20,7 @@ permalink: /posts/
 <ul>
   {% for post in site.tags.jekyll %}
     <li>
-      <h4><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h4>
+      <h4><a href="{{ post.url }}" class="link--post">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></h4>
     </li>
   {% endfor %}
 </ul>
