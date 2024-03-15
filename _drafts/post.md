@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Test"
-date:   2024-03-14 22:16:12+01:00
+title:  "My first draft"
+date:   2024-03-15 12:12:00+01:00
 categories: jekyll
 tags: jekyll
 ---
