@@ -6,6 +6,6 @@ categories: jekyll
 tags: jekyll
 ---
 
-![A comic slightly related to this article is XKCD 741: Blogging](https://imgs.xkcd.com/comics/blogging.png "A comic slightly related to this article is XKCD 741: Blogging")
+![A comic slightly related to this post is XKCD 741: Blogging](https://imgs.xkcd.com/comics/blogging.png "A comic slightly related to this post is XKCD 741: Blogging")
 
-{% include image.html url="https://imgs.xkcd.com/comics/blogging.png" description="A comic slightly related to this article is XKCD 741: Blogging" %}
+{% include image.html url="https://imgs.xkcd.com/comics/blogging.png" description="A comic slightly related to this post is XKCD 741: Blogging" %}
