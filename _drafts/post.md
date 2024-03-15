@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Test"
+date:   2024-03-14 22:16:12+01:00
+categories: jekyll
+tags: jekyll
+---
+
+![A comic slightly related to this article is XKCD 741: Blogging](https://imgs.xkcd.com/comics/blogging.png)
+
+This is a draft.
