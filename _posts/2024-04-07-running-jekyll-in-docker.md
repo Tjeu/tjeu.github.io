@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Running Jekyll in Docker (Podman)"
-date: 2024-04-07 22:17:00+01:00
+date: 2024-04-07 22:17:00+02:00
 categories: jekyll
 tags: jekyll docker podman github-pages
 ---
