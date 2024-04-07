@@ -1,0 +1,28 @@
+title: Aboutomation
+author: Matthieu
+url: https://ma.tthieu.nl
+lang: en-GB
+baseurl: ""
+description: >
+  Streamlining the Mundane: A Guide About Automating Repetitive Tasks
+
+favicon: "favicon.ico"
+
+remote_theme: pages-themes/merlot@v0.2.0
+
+theme_config:
+  appearance: "auto"
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  show_description: false
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  - categories

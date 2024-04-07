@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.link--menu {
+  font-family: "Open Sans", Myriad, Calibri, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.link--post {
+  font-family: "Open Sans", Myriad, Calibri, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic__img {
+  border-top-color: #e69b95;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-right-color: #c7334f;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-bottom-color: #c7334f;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-left-color: #e69b95;
+  border-left-style: solid;
+  border-left-width: 2px;
+  box-shadow: 0px 0px 0px;
+  -moz-box-shadow: 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 0px;
+}
+
+.comic__caption {
+  font-size: 14px;
+  font-style: italic;
+}
+
+p.meta:has(> span.postdate) {
+  font-size: 14px;
+  font-style: italic;
+}
