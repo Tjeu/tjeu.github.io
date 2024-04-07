@@ -10,7 +10,7 @@ tags: jekyll docker podman github-pages
 
 ---
 
-Inspired by a [repository](https://github.com/peteretelej/jekyll-container) from Peter Etelej. Adjusted to work with Podman which is what I use on my Fedora Workstation as an alternative for Docker.
+Inspired by a [repository](https://github.com/peteretelej/jekyll-container) from Peter Etelej. Adjusted to work with Podman which is what I use on Fedora Workstation as an alternative for Docker.
 
 The version of Ruby and Bundler is important so that it works together with Github Pages and its [dependencies](https://pages.github.com/versions/).
 
@@ -56,4 +56,4 @@ Run it!
 podman run --rm -it -p 4000:4000 -v "$PWD":/app:z -w /app localhost/tjeu/jekyll:latest
 ~~~
 
-:z handles SELinux labels when using Podman. This solved for me an error related to permissions. When you accidentally run it without the labels will be wrong. I had trouble getting it to work after that and had to delete the folder and run it again to finally get it to work.
+:z handles SELinux labels when using Podman. This solved for me an error related to permissions. When you accidentally run it without that suffix, the labels will be wrong. I had trouble getting it to work after that and had to delete the folder and run it again to finally get it to work.
